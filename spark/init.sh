@@ -10,8 +10,8 @@ fi
 mkdir spark
 pushd spark > /dev/null
 git init
-repo=`python -c "print '$SPARK_VERSION'.split('|')[0]"` 
-git_hash=`python -c "print '$SPARK_VERSION'.split('|')[1]"`
+repo="https://github.com/zhaozhang/spark.git"
+git_hash="streaming-pyKira"
 git remote add origin $repo
 git fetch origin
 git checkout $git_hash
