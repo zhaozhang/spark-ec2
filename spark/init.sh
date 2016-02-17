@@ -11,7 +11,8 @@ mkdir spark
 pushd spark > /dev/null
 git init
 repo="https://github.com/zhaozhang/spark.git"
-git_hash="streaming-pyKira"
+#git_hash="streaming-pyKira"
+git_hash="random-preferred-location"
 git remote add origin $repo
 git fetch origin
 git checkout $git_hash
